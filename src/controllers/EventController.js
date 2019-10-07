@@ -7,7 +7,7 @@ const Event = require('../models/Event')
 // Get all cars
 exports.getEvents = async (req, reply) => {
 	try {
-		const events = await Event.find(req.body)
+		const events = await Event.find()
 		return events
 	} catch (err) {
 		throw boom.boomify(err)
