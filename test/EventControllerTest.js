@@ -7,7 +7,7 @@ describe("Event Controller Test", function () {
 		it('should return empry array', function () {
 			let events = eventController.getEvents()
 			//console.log(events)
-			//assert.typeOf(events, 'object')
+			assert.typeOf(events, 'object')
 		});
 	})
 
