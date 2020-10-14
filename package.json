@@ -14,10 +14,10 @@
     "boom": "^7.3.0",
     "chai": "^4.2.0",
     "cors": "^2.8.5",
-    "fastify": "^2.15.1",
+    "fastify": "^2.15.3",
     "fastify-swagger": "^2.4.0",
     "mocha": "^7.0.1",
-    "mongoose": "^5.7.5",
+    "mongoose": "^5.10.9",
     "nodemon": "^1.19.2"
   }
 }
